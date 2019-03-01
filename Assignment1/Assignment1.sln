@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "environment_variables", "en
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "creating file", "creating file\creating file.vcxproj", "{74F35A7D-36C0-44C4-A0AF-BBB350E85A1F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "writing file", "writing file\writing file.vcxproj", "{9029D375-6990-4F92-BABA-5D3E5605E08D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{74F35A7D-36C0-44C4-A0AF-BBB350E85A1F}.Release|x64.Build.0 = Release|x64
 		{74F35A7D-36C0-44C4-A0AF-BBB350E85A1F}.Release|x86.ActiveCfg = Release|Win32
 		{74F35A7D-36C0-44C4-A0AF-BBB350E85A1F}.Release|x86.Build.0 = Release|Win32
+		{9029D375-6990-4F92-BABA-5D3E5605E08D}.Debug|x64.ActiveCfg = Debug|x64
+		{9029D375-6990-4F92-BABA-5D3E5605E08D}.Debug|x64.Build.0 = Debug|x64
+		{9029D375-6990-4F92-BABA-5D3E5605E08D}.Debug|x86.ActiveCfg = Debug|Win32
+		{9029D375-6990-4F92-BABA-5D3E5605E08D}.Debug|x86.Build.0 = Debug|Win32
+		{9029D375-6990-4F92-BABA-5D3E5605E08D}.Release|x64.ActiveCfg = Release|x64
+		{9029D375-6990-4F92-BABA-5D3E5605E08D}.Release|x64.Build.0 = Release|x64
+		{9029D375-6990-4F92-BABA-5D3E5605E08D}.Release|x86.ActiveCfg = Release|Win32
+		{9029D375-6990-4F92-BABA-5D3E5605E08D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
