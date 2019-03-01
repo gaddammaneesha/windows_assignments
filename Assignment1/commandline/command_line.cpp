@@ -4,7 +4,6 @@
 #include<windows.h>
 #include<shellapi.h>
 #include<tchar.h>
-using namespace std;
 int main()
 {
 	LPWSTR *SZargslist;
