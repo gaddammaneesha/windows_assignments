@@ -1,0 +1,8 @@
+﻿  environment_var.cpp
+c:\users\cdac\desktop\gaddammaneesha\windows_assignments\assignment1\environment_variables\environment_var.cpp(16): warning C4477: 'wprintf' : format string '%S' requires an argument of type 'char *', but variadic argument 2 has type 'PTSTR'
+  c:\users\cdac\desktop\gaddammaneesha\windows_assignments\assignment1\environment_variables\environment_var.cpp(16): note: consider using '%lS' in the format string
+  c:\users\cdac\desktop\gaddammaneesha\windows_assignments\assignment1\environment_variables\environment_var.cpp(16): note: consider using '%llS' in the format string
+  c:\users\cdac\desktop\gaddammaneesha\windows_assignments\assignment1\environment_variables\environment_var.cpp(16): note: consider using '%LS' in the format string
+  c:\users\cdac\desktop\gaddammaneesha\windows_assignments\assignment1\environment_variables\environment_var.cpp(16): note: consider using '%wS' in the format string
+  environment_variables.vcxproj -> C:\Users\cdac\Desktop\gaddammaneesha\windows_assignments\Assignment1\Debug\environment_variables.exe
+  environment_variables.vcxproj -> C:\Users\cdac\Desktop\gaddammaneesha\windows_assignments\Assignment1\Debug\environment_variables.pdb (Full PDB)
