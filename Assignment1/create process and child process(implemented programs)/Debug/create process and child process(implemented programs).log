@@ -1,0 +1,7 @@
+﻿  Source.cpp
+c:\users\cdac\desktop\gaddammaneesha\windows_assignments\assignment1\create process and child process(implemented programs)\source.cpp(23): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'HANDLE'
+c:\users\cdac\desktop\gaddammaneesha\windows_assignments\assignment1\create process and child process(implemented programs)\source.cpp(24): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'HANDLE'
+c:\users\cdac\desktop\gaddammaneesha\windows_assignments\assignment1\create process and child process(implemented programs)\source.cpp(31): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'HANDLE'
+c:\users\cdac\desktop\gaddammaneesha\windows_assignments\assignment1\create process and child process(implemented programs)\source.cpp(32): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'HANDLE'
+  create process and child process(implemented programs).vcxproj -> C:\Users\cdac\Desktop\gaddammaneesha\windows_assignments\Assignment1\Debug\create process and child process(implemented programs).exe
+  create process and child process(implemented programs).vcxproj -> C:\Users\cdac\Desktop\gaddammaneesha\windows_assignments\Assignment1\Debug\create process and child process(implemented programs).pdb (Full PDB)

@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "writing file", "writing fil
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "createprocess", "createprocess\createprocess.vcxproj", "{C14FE1B4-F725-40A0-AFF2-F3E38A730E74}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "create process and child process(implemented programs)", "create process and child process(implemented programs)\create process and child process(implemented programs).vcxproj", "{0EBB62CA-5422-42B7-9F8B-E6B586F7D90A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{C14FE1B4-F725-40A0-AFF2-F3E38A730E74}.Release|x64.Build.0 = Release|x64
 		{C14FE1B4-F725-40A0-AFF2-F3E38A730E74}.Release|x86.ActiveCfg = Release|Win32
 		{C14FE1B4-F725-40A0-AFF2-F3E38A730E74}.Release|x86.Build.0 = Release|Win32
+		{0EBB62CA-5422-42B7-9F8B-E6B586F7D90A}.Debug|x64.ActiveCfg = Debug|x64
+		{0EBB62CA-5422-42B7-9F8B-E6B586F7D90A}.Debug|x64.Build.0 = Debug|x64
+		{0EBB62CA-5422-42B7-9F8B-E6B586F7D90A}.Debug|x86.ActiveCfg = Debug|Win32
+		{0EBB62CA-5422-42B7-9F8B-E6B586F7D90A}.Debug|x86.Build.0 = Debug|Win32
+		{0EBB62CA-5422-42B7-9F8B-E6B586F7D90A}.Release|x64.ActiveCfg = Release|x64
+		{0EBB62CA-5422-42B7-9F8B-E6B586F7D90A}.Release|x64.Build.0 = Release|x64
+		{0EBB62CA-5422-42B7-9F8B-E6B586F7D90A}.Release|x86.ActiveCfg = Release|Win32
+		{0EBB62CA-5422-42B7-9F8B-E6B586F7D90A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
