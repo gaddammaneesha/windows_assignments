@@ -24,26 +24,30 @@ int _tmain(int argc, LPTSTR argv[])
 	{
 		_tprintf(_T("file %s opened successfully\n"), argv[1]);
 			DWORD dwcount;	//counting the number of bytes
-			BOOL ret = ReadFile(hfile, buffer,BUFFSIZE, &dwcount, NULL);
-			if (ret == FALSE)
+			while (1)
 			{
-				_tprintf(_T("cannot read file"));
-				getchar();
-				CloseHandle(hfile);
-				return FALSE;
-			}
-			else if (ret == TRUE && dwcount == 0)		// no data present and file exist
-			{
-				_tprintf(_T("Reached End Of File"));
-				CloseHandle(hfile);
-			
-			}
-			else
-			{
-				CloseHandle(hfile);
-				printf("%s\n", buffer);
-			}
+				BOOL ret = ReadFile(hfile, buffer, BUFFSIZE, &dwcount, NULL);
+				if (ret == FALSE)
+				{
+					_tprintf(_T("cannot read file"));
+					getchar();
+					CloseHandle(hfile);
+					return FALSE;
+				}
+				else if (dwcount == 0)		// no data present and file exist
+				{
+					_tprintf(_T("Reached End Of File"));
+					CloseHandle(hfile);
 
+				}
+				else
+				{
+					int i;
+					CloseHandle(hfile);
+					for(i=0;i<dwcount;i++)
+					printf("%c", buffer[i]);
+				}
+			}
 	}
 	system("pause");
 }
