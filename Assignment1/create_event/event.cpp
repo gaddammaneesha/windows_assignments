@@ -2,7 +2,7 @@
 #include<Windows.h>
 #include<tchar.h>
 #include<shellapi.h>
-//creating event orogram
+//creating event program
 int main()
 {
 	SECURITY_ATTRIBUTES se;
