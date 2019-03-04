@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "create_event", "create_even
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "printing id for process and thread", "printing id for process and thread\printing id for process and thread.vcxproj", "{29BD1CDA-6E2D-4DA5-B006-D388CAA450FA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "inheritance", "inheritance\inheritance.vcxproj", "{63E42F66-4DB7-4542-9107-34AE489531D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{29BD1CDA-6E2D-4DA5-B006-D388CAA450FA}.Release|x64.Build.0 = Release|x64
 		{29BD1CDA-6E2D-4DA5-B006-D388CAA450FA}.Release|x86.ActiveCfg = Release|Win32
 		{29BD1CDA-6E2D-4DA5-B006-D388CAA450FA}.Release|x86.Build.0 = Release|Win32
+		{63E42F66-4DB7-4542-9107-34AE489531D4}.Debug|x64.ActiveCfg = Debug|x64
+		{63E42F66-4DB7-4542-9107-34AE489531D4}.Debug|x64.Build.0 = Debug|x64
+		{63E42F66-4DB7-4542-9107-34AE489531D4}.Debug|x86.ActiveCfg = Debug|Win32
+		{63E42F66-4DB7-4542-9107-34AE489531D4}.Debug|x86.Build.0 = Debug|Win32
+		{63E42F66-4DB7-4542-9107-34AE489531D4}.Release|x64.ActiveCfg = Release|x64
+		{63E42F66-4DB7-4542-9107-34AE489531D4}.Release|x64.Build.0 = Release|x64
+		{63E42F66-4DB7-4542-9107-34AE489531D4}.Release|x86.ActiveCfg = Release|Win32
+		{63E42F66-4DB7-4542-9107-34AE489531D4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
