@@ -1,0 +1,5 @@
+﻿  Source.cpp
+c:\users\cdac\desktop\gaddammaneesha\windows_assignments\assignment1\printing id for process and thread\source.cpp(15): warning C4101: 'hThread': unreferenced local variable
+c:\users\cdac\desktop\gaddammaneesha\windows_assignments\assignment1\printing id for process and thread\source.cpp(14): warning C4101: 'hProcess': unreferenced local variable
+  printing id for process and thread.vcxproj -> C:\Users\cdac\Desktop\gaddammaneesha\windows_assignments\Assignment1\Debug\printing id for process and thread.exe
+  printing id for process and thread.vcxproj -> C:\Users\cdac\Desktop\gaddammaneesha\windows_assignments\Assignment1\Debug\printing id for process and thread.pdb (Full PDB)
