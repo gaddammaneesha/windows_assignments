@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<Windows.h>
-//exit secondary thread using ExitThread API
+//child process priority and thread priority program 
 DWORD WINAPI thread_func(LPVOID param)
 {
 	for (int i = 0; i < 10; i++)
@@ -17,8 +17,8 @@ int main()
 		printf("thread is not created");
 	//waiting for the thread to close
 	WaitForSingleObject(hthread, 1000);
-	printf("terminating thread  %d", TerminateThread(hthread, dwExitCode));
-	printf("\nExitCode = %d\n", GetExitCodeThread(hthread, &dwExitCode));
+	SetPriorityClass(GetCurrentProcess(), BELOW_NORMAL_PRIORITY_CLASS);
+	SetThreadPriority(hthread, THREAD_PRIORITY_LOWEST);
 	//closing the thread of the process
 	CloseHandle(hthread);
 	system("pause");
