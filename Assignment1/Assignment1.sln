@@ -37,6 +37,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "childpriority", "childprior
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sharedvar(inconsistent)", "sharedvar(inconsistent)\sharedvar(inconsistent).vcxproj", "{6A8EF827-AF2B-4C41-B908-2932077CB366}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "interlocked", "interlocked\interlocked.vcxproj", "{28D4B399-808E-4E87-8D62-9134D22C7B59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -181,6 +183,14 @@ Global
 		{6A8EF827-AF2B-4C41-B908-2932077CB366}.Release|x64.Build.0 = Release|x64
 		{6A8EF827-AF2B-4C41-B908-2932077CB366}.Release|x86.ActiveCfg = Release|Win32
 		{6A8EF827-AF2B-4C41-B908-2932077CB366}.Release|x86.Build.0 = Release|Win32
+		{28D4B399-808E-4E87-8D62-9134D22C7B59}.Debug|x64.ActiveCfg = Debug|x64
+		{28D4B399-808E-4E87-8D62-9134D22C7B59}.Debug|x64.Build.0 = Debug|x64
+		{28D4B399-808E-4E87-8D62-9134D22C7B59}.Debug|x86.ActiveCfg = Debug|Win32
+		{28D4B399-808E-4E87-8D62-9134D22C7B59}.Debug|x86.Build.0 = Debug|Win32
+		{28D4B399-808E-4E87-8D62-9134D22C7B59}.Release|x64.ActiveCfg = Release|x64
+		{28D4B399-808E-4E87-8D62-9134D22C7B59}.Release|x64.Build.0 = Release|x64
+		{28D4B399-808E-4E87-8D62-9134D22C7B59}.Release|x86.ActiveCfg = Release|Win32
+		{28D4B399-808E-4E87-8D62-9134D22C7B59}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
